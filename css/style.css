@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    z-index: 99;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 0 10px;
+    line-height: 60px;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: darkred;
+}
+.more{
+    color: black;
+    float: left;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*.wrapper {*/
+/*    !*clear: both;*!*/
+/*    background-color: lightblue;*/
+/*}*/
+
+div{
+    background-color: lightgrey;
+
+}
+.box1{
+    background-color: orange;
+}
+.box2{
+    background-color: orange;
+}
+.box3{
+    background-color: orange;
+}
+.box4{
+    background-color: orange;
+}
+
+img{
+    height: 150px;
+    width: 200px;
+    margin: 8px;
+}
+
+.column1{
+    width: 100%;
+    float: left;
+}
+
+.column2{
+    width: 100%;
+    float: right;
+}
+
+@media screen and (min-width: 800px){
+    .box1{
+        width: 250px;
+        margin: 8px;
+        float: left;
+        background-color: orange;
+    }
+    .box2{
+        width: 250px;
+        margin: 8px;
+        float: left;
+        background-color: orange;
+    }
+    .box3{
+        width: 250px;
+        margin: 8px;
+        float: left;
+        background-color: orange;
+    }
+    .box4{
+        width: 250px;
+        margin: 8px;
+        float: left;
+        background-color: orange;
+    }
+    /*.wrapper{*/
+    /*    background-color: lightblue;*/
+    /*    width: 100%;*/
+    /*}*/
+
+    .column1{
+        width: 47%;
+        margin: 8px;
+    }
+    .column2{
+        width: 45%;
+        margin: 8px;
+    }
+}
+
+/*@media screen and (min-device-width: 500px){*/
+/*    .wrapper{*/
+/*        background-color: white;*/
+
+/*    }*/
+
+/*}*/
+
+footer{
+    clear: both;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    z-index: 98;
+    background-color: grey;
+    position: relative;
+}
